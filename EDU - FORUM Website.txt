@@ -1,0 +1,168 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empowerment, Diversity, and Unity Forum - Advancing equity, inclusion, and collaboration in communities.">
+     <img src="Add a heading (1).png">
+	<title>Empowerment, Diversity & Unity Forum</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #2d5f73;
+            color: #fff;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #214854;
+            padding: 0.8em 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #f4d03f;
+        }
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+        }
+        .hero h2 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-title {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+            text-align: center;
+            color: #214854;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1em;
+        }
+        .grid div {
+            padding: 1em;
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        footer {
+            background: #214854;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .contact-form input, .contact-form textarea, .contact-form button {
+            padding: 0.8em;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background: #2d5f73;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #214854;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Empowerment, Diversity & Unity Forum</h1>
+        <p>Advancing Equity, Inclusion, and Collaboration</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#initiatives">Initiatives</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Building Stronger, More Inclusive Communities</h2>
+    </div>
+    <div class="container" id="home">
+        <h2 class="section-title">Welcome</h2>
+        <p>This platform is dedicated to empowering individuals, celebrating diversity, and fostering unity in our communities. Join us as we share ideas, learn from each other, and grow together.Our forum is dedicated to promoting empowerment, celebrating diversity, and fostering unity. We provide resources, programs, and a platform for dialogue to strengthen communities and build equity for all.</p>
+    </div>
+    <div class="container" id="about">
+        <h2 class="section-title">About Us</h2>
+        <p>We believe that everyone deserves a voice and equal opportunity. Our mission is to advance social equity through research, advocacy, and collaboration with individuals and organizations committed to inclusion.</p>
+    </div>
+    <div class="container" id="initiatives">
+        <h2 class="section-title">Our Initiatives</h2>
+        <div class="grid">
+            <div>
+                <h3>Community Outreach</h3>
+                <p>We partner with local groups to bring education, resources, and support to underserved communities.</p>
+            </div>
+            <div>
+                <h3>Research & Advocacy</h3>
+                <p>Our research informs policies and practices that promote social justice and inclusivity.</p>
+            </div>
+            <div>
+                <h3>Youth AND Empowerment</h3>
+                <p>We provide programs that equip young leaders with the tools and knowledge to drive change.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="resources">
+        <h2 class="section-title">Resources</h2>
+        <p>Explore our library of guides, articles, and tools designed to support individuals and organizations working towards equity and unity.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Empowerment, Diversity & Unity Forum. All rights reserved.</p>
+    </footer>
+</body>
+</html>
